@@ -1,6 +1,7 @@
 # day36_puppeteer-automation
 
-#cara
+cara pakai
+
 dc :
 sesuaikan akun discord dan channel
 
