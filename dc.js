@@ -20,16 +20,16 @@ const discord = {
         const loginButton = '.button-white.login-button-js.w-button.hide-on-mobile';
         await discord.page.waitForSelector(loginButton, { visible: true }); 
         await discord.page.click(loginButton);
-        await discord.page.waitForNavigation();
+        // await discord.page.waitForNavigation();
         await discord.page.setViewport({ width: 1100, height: 650 });
 
 
-        await setTimeout(4000);
+        await setTimeout(10000);
 
         // input login
         // email dan password di sesuaikan akun kalian
-        await discord.page.type('input[name="email"]', 'amru.azzam3@gmail.com',{delay:100});
-        await discord.page.type('input[name="password"]', 'a3jra3jr',{delay:100});
+        await discord.page.type('input[name="email"]', '',{delay:100});
+        await discord.page.type('input[name="password"]', '',{delay:100});
 
         await setTimeout(1000);
 

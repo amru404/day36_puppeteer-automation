@@ -10,14 +10,14 @@ const dc = require('./dc');
   
   })();
 
-const maxy = require('./tugas-day36');
+// const maxy = require('./tugas-day36');
 
 
-(async () => {
+// (async () => {
 
-    await maxy.initialize();
-    await maxy.login();
-    await maxy.moveTo();
+//     await maxy.initialize();
+//     await maxy.login();
+//     await maxy.moveTo();
     
   
-  })();
+//   })();
